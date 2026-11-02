@@ -1,0 +1,283 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmAttendantUpdateProfile
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btnBack = New Project02_DD.DisplayCustomizations()
+        Me.DisplayCustomizations3 = New Project02_DD.DisplayCustomizations()
+        Me.btnSubmit = New Project02_DD.DisplayCustomizations()
+        Me.DisplayCustomizations1 = New Project02_DD.DisplayCustomizations()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.txtTerminationDate = New System.Windows.Forms.TextBox()
+        Me.txtHireDate = New System.Windows.Forms.TextBox()
+        Me.txtLastName = New System.Windows.Forms.TextBox()
+        Me.txtEmployeeID = New System.Windows.Forms.TextBox()
+        Me.txtFirstName = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'btnBack
+        '
+        Me.btnBack.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.btnBack.CornerRadius = 55
+        Me.btnBack.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue
+        Me.btnBack.FlatAppearance.BorderSize = 0
+        Me.btnBack.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.btnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBack.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBack.ForeColor = System.Drawing.Color.White
+        Me.btnBack.Location = New System.Drawing.Point(549, 488)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(386, 110)
+        Me.btnBack.TabIndex = 80
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = False
+        '
+        'DisplayCustomizations3
+        '
+        Me.DisplayCustomizations3.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.DisplayCustomizations3.CornerRadius = 60
+        Me.DisplayCustomizations3.Enabled = False
+        Me.DisplayCustomizations3.FlatAppearance.BorderSize = 0
+        Me.DisplayCustomizations3.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control
+        Me.DisplayCustomizations3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control
+        Me.DisplayCustomizations3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DisplayCustomizations3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DisplayCustomizations3.ForeColor = System.Drawing.Color.Transparent
+        Me.DisplayCustomizations3.Location = New System.Drawing.Point(542, 483)
+        Me.DisplayCustomizations3.Name = "DisplayCustomizations3"
+        Me.DisplayCustomizations3.Size = New System.Drawing.Size(400, 121)
+        Me.DisplayCustomizations3.TabIndex = 81
+        Me.DisplayCustomizations3.UseVisualStyleBackColor = False
+        '
+        'btnSubmit
+        '
+        Me.btnSubmit.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.btnSubmit.CornerRadius = 55
+        Me.btnSubmit.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue
+        Me.btnSubmit.FlatAppearance.BorderSize = 0
+        Me.btnSubmit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.btnSubmit.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSubmit.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSubmit.ForeColor = System.Drawing.Color.White
+        Me.btnSubmit.Location = New System.Drawing.Point(549, 317)
+        Me.btnSubmit.Name = "btnSubmit"
+        Me.btnSubmit.Size = New System.Drawing.Size(386, 110)
+        Me.btnSubmit.TabIndex = 78
+        Me.btnSubmit.Text = "Submit"
+        Me.btnSubmit.UseVisualStyleBackColor = False
+        '
+        'DisplayCustomizations1
+        '
+        Me.DisplayCustomizations1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.DisplayCustomizations1.CornerRadius = 60
+        Me.DisplayCustomizations1.Enabled = False
+        Me.DisplayCustomizations1.FlatAppearance.BorderSize = 0
+        Me.DisplayCustomizations1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control
+        Me.DisplayCustomizations1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control
+        Me.DisplayCustomizations1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DisplayCustomizations1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DisplayCustomizations1.ForeColor = System.Drawing.Color.Transparent
+        Me.DisplayCustomizations1.Location = New System.Drawing.Point(542, 312)
+        Me.DisplayCustomizations1.Name = "DisplayCustomizations1"
+        Me.DisplayCustomizations1.Size = New System.Drawing.Size(400, 121)
+        Me.DisplayCustomizations1.TabIndex = 79
+        Me.DisplayCustomizations1.UseVisualStyleBackColor = False
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Century Gothic", 10.125!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(32, 31)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(221, 33)
+        Me.Label11.TabIndex = 77
+        Me.Label11.Text = "FlyMe2theMoon"
+        '
+        'txtTerminationDate
+        '
+        Me.txtTerminationDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTerminationDate.Location = New System.Drawing.Point(267, 590)
+        Me.txtTerminationDate.Name = "txtTerminationDate"
+        Me.txtTerminationDate.Size = New System.Drawing.Size(205, 38)
+        Me.txtTerminationDate.TabIndex = 76
+        '
+        'txtHireDate
+        '
+        Me.txtHireDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHireDate.Location = New System.Drawing.Point(267, 510)
+        Me.txtHireDate.Name = "txtHireDate"
+        Me.txtHireDate.Size = New System.Drawing.Size(205, 38)
+        Me.txtHireDate.TabIndex = 75
+        '
+        'txtLastName
+        '
+        Me.txtLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLastName.Location = New System.Drawing.Point(267, 350)
+        Me.txtLastName.Name = "txtLastName"
+        Me.txtLastName.Size = New System.Drawing.Size(205, 38)
+        Me.txtLastName.TabIndex = 74
+        '
+        'txtEmployeeID
+        '
+        Me.txtEmployeeID.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEmployeeID.Location = New System.Drawing.Point(267, 430)
+        Me.txtEmployeeID.Name = "txtEmployeeID"
+        Me.txtEmployeeID.Size = New System.Drawing.Size(205, 38)
+        Me.txtEmployeeID.TabIndex = 73
+        '
+        'txtFirstName
+        '
+        Me.txtFirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFirstName.Location = New System.Drawing.Point(270, 270)
+        Me.txtFirstName.Name = "txtFirstName"
+        Me.txtFirstName.Size = New System.Drawing.Size(205, 38)
+        Me.txtFirstName.TabIndex = 72
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(30, 593)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(224, 31)
+        Me.Label7.TabIndex = 71
+        Me.Label7.Text = "Date Terminated:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(87, 513)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(167, 31)
+        Me.Label5.TabIndex = 70
+        Me.Label5.Text = "Date of Hire:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(77, 433)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(177, 31)
+        Me.Label4.TabIndex = 69
+        Me.Label4.Text = "Employee ID:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(101, 353)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(153, 31)
+        Me.Label3.TabIndex = 68
+        Me.Label3.Text = "Last Name:"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(99, 273)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(155, 31)
+        Me.Label10.TabIndex = 67
+        Me.Label10.Text = "First Name:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 16.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(330, 60)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(317, 52)
+        Me.Label1.TabIndex = 66
+        Me.Label1.Text = "Update Profile"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(353, 123)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(263, 39)
+        Me.Label2.TabIndex = 82
+        Me.Label2.Text = "A T T E N D A N T"
+        '
+        'frmAttendantUpdateProfile
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(974, 779)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.btnBack)
+        Me.Controls.Add(Me.DisplayCustomizations3)
+        Me.Controls.Add(Me.btnSubmit)
+        Me.Controls.Add(Me.DisplayCustomizations1)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.txtTerminationDate)
+        Me.Controls.Add(Me.txtHireDate)
+        Me.Controls.Add(Me.txtLastName)
+        Me.Controls.Add(Me.txtEmployeeID)
+        Me.Controls.Add(Me.txtFirstName)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label1)
+        Me.MaximumSize = New System.Drawing.Size(1000, 850)
+        Me.MinimumSize = New System.Drawing.Size(1000, 850)
+        Me.Name = "frmAttendantUpdateProfile"
+        Me.Text = "Attendant Update Profile"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents btnBack As DisplayCustomizations
+    Friend WithEvents DisplayCustomizations3 As DisplayCustomizations
+    Friend WithEvents btnSubmit As DisplayCustomizations
+    Friend WithEvents DisplayCustomizations1 As DisplayCustomizations
+    Friend WithEvents Label11 As Label
+    Friend WithEvents txtTerminationDate As TextBox
+    Friend WithEvents txtHireDate As TextBox
+    Friend WithEvents txtLastName As TextBox
+    Friend WithEvents txtEmployeeID As TextBox
+    Friend WithEvents txtFirstName As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+End Class
